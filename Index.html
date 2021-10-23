@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-E a cima temos então o início do nosso lindo site, com o que toda e qualquer page html pede em seu início.-->
+<html lang="pt-br">	
+<!-A cima temos a tag inicial do nosso documento, e que se inicie os jogos! -->
+	<head>
+<title>Parabéns!</title>
+<meta charset="utf-8">
+	</head>
+<!- A cima então, temos nosso cabeçalho declarado, com o inserir de algumas informações inportantes para nosso documento. Algumas delas não serão mostradas, mas o title por exemplo, é uma que é visível, pois a mesma define o título da Aba da page em nosso navegador.-->
+<p>Parabéns, parabéns!<br>Finalmente você conseguiu a sua oportunidade de participar do tão esperado concurso NP(New programmers(Novos programadores)), e para garantir a sua vaga, basta preencher os campos a baixo e aguardar nosso retorno!<br>Ótima sorte!</p>
+<hr>
+<!-A cima temos um pequeno pedaço de texto, onde saudamos o felizardo(a), e o incentivamos a prosseguir. Ah, igual temos um pequeno separador. Não sei como fica visualmente, mas no meu entender, parece que vai ficar muito legal.-->
+	<body>
+<h1>Instruções:</h1>
+<p>Para garantir que nada inesperado aconteça com sua inscrição,  leia e siga atentamente as instruções a baixo:<br>
+	<ol>
+<li>Todos os campos marcados com símbolo asterisco(*), são obrigatórios;</li>
+<li>Certifique-se de inserir dados de contatos válidos e pessoais, do contrário, poderá até mesmo perder  sua oportunidade por esquecer de um arroba(@) no e-mail, um CPF ou celulares que não mais são usados, etc. Tenha extrema atenção!;</li>
+<li>Antes de confirmar o envio dos dados clickando no botão enviar, se necessário, revise todos os campos, e redefina os mesmos com o botão redefinir caso seja necessário começar do zero. Afinal, essa é uma oportunidade em 1000, todo cuidado é pouco!;</li>
+<li>Porfim, não não há nada mais, só um desejar de ótima sorte, e lembre-se! Nunca desista de seus sonhos, acredite, tudo pode ser alcançado, com esforço e dedicação! Nunca perca seus objetivos de vista!</li>
+	</ol>
+</p>
+<!-A cima temos então o cabeçalho 1 de nossa page, onde com uma lista ordenada, orientamos o visitante(a), para que o mesmo(a) não cometa erros enquanto preenche as informações-->
+<h2>Formulário para contato</h2>
+<main>
+Pronto (a)?"<br>Então vamos lá! Here we go!
+<hr>
+<p>Formulário para contato:</p>
+<form>
+<label for="nome">Nome:</label>
+<input type="text" id="userClient" maxlength="10" placeholder="* Digite seu nome máximo 10 caracteres, usando apenas letras minúsculas e maiúsculas:" required>
+<label for="cpf">cpf</label>
+<input type="text" name="cpf" id="cpfUser" maxlength="11" placeholder="* Digite seu CPF apenas números. Exemplo: 99999999999" required>
+<input type="text" name="RG" placeholder="Opcional: Digite seu RG:">
+<label for="Genero">Opcional: Selecione seu gênero:</label>
+<select id="Genero">
+	<option value="select">Selecione um gênero</option>
+	<option value="male">Masculino</option>
+<option value="female">Feminino</option>
+<option value="keepsecret">Prefiro não revelar</option>
+</select>
+<input type="text" name="endereco" placeholder="* Digite seu endereço:" required>
+<input type="text" name="numero" placeholder="* Por favor, digite o número da sua moradia. Especificar bloco ou apartamento:" required>
+<input type="text" name="Bairro" placeholder="Opcional: Digite o nome do seu bairro:">
+<input type="text" name="Cidade" placeholder="Opcional: Digite o nome da sua cidade:">
+<input type="text" name="Estado" placeholder="Opcional: Digite o nome do seu estado">
+<input type="number" name="Cep" maxlength="8" placeholder="Opcional: Digite o Cep da sua cidade máximo 8 caracteres. Exemplo: 99999999">
+<input type="tel" id="validaFixo" maxlength="10" placeholder="Opcional: Digite o telefone fixo de sua residência, caso o mesmo exista máximo 10 caracteres:">
+<label for="celnumb">Digite seu celular, use somente números.</label>
+<input type="tel" id="validaCelular" placeholder="* Digite seu telefone no formato: 99 99999-9999" required><input type="email" name="email" placeholder="Opcional: Digite seu e-mail. Exemplo: meuemail@meudominio.com:">
+<input type="reset" name="Resetarcampos">
+<button type="button">Enviar!</button>
+</form>
+</main>
+<!-A cima temos o nosso formulário pronto para ser preenchido pelo nosso querido(a) visitante. Espero que tenha corrido tudo bem, querido(a)-->
+<footer>
+	Todo uso, replicação, e tudo quanto mais tu queira com essa página, vá fundo! É apenas um teste, mas que fique claro!<br>Eu, quem, começou tudo! copyright: Ramon's corporation!
+</footer>
+<!-A cima temos nosso lindo rodapé. Tá, sei que não é lindo, mas...-->
+<script src="./script.js"></script>
+<!-A cima finalmente nosso arquivo javascript é linkado a page html, é hora do show!-->
+	</body>
+</html>
+<!-Aqui por fim, temos o fim de nossa page. Foi legal, não foi?--->
